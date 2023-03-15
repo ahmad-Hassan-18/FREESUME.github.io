@@ -1,0 +1,364 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+.navBar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: rgb(245, 129, 129);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2.5em;
+    height: 4rem;
+    width: 100%;
+}
+
+.navBar #brand {
+    position: absolute;
+    color: transparent;
+    background: url("img/brand.gif");
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+.navBar span #logo {
+    position: absolute;
+    top: 8px;
+    left: 10px;
+    width: 1.2em;
+    border-radius: 100%;
+}
+
+.header {
+    width: 100%;
+    height: 60vh;
+    background: rgb(255, 217, 223);
+    /* background: rgb(225, 240, 255); */
+}
+
+.header h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5em;
+    padding: 1.5em 2em 2em;
+    color: rgb(25, 25, 25);
+}
+
+.container {
+    margin: 3rem auto;
+    padding: 2em 0 0 2em;
+    width: 80vw;
+    background: rgb(241, 241, 241);
+    font-family: 'Poppins', sans-serif;
+}
+
+.container h3 {
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.container form input {
+    width: 10em;
+    height: 1.5em;
+    background: white;
+    border-radius: 10px;
+    border: none;
+    padding-left: 5px;
+    margin-left: 5em;
+}
+
+.container form label {
+    display: block;
+}
+
+.container form .labels {
+    display: inline;
+}
+
+#submitButton {
+    border-radius: 5px;
+    width: 10em;
+    height: 2.5em;
+    margin-bottom: 3em;
+    margin-left: 5em;
+    background: dodgerblue;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s all ease;
+    border: none;
+}
+
+#submitButton:hover {
+    border-radius: 25px;
+    transition: 0.5s all ease;
+}
+
+.container form #resetButton {
+    border-radius: 5px;
+    width: 10em;
+    height: 2.5em;
+    margin-bottom: 3em;
+    background: rgb(255, 112, 112);
+    color: white;
+    cursor: pointer;
+    transition: 0.5s all ease;
+}
+
+.container form #resetButton:hover {
+    border-radius: 25px;
+    transition: 0.5s all ease;
+}
+
+.container #color {
+    border-radius: 5px;
+    width: 10em;
+    height: 2.5em;
+    margin-bottom: 3em;
+    background: linear-gradient(rgba(255, 65, 65, 0.762), rgba(255, 255, 53, 0.8), rgba(62, 62, 255, 0.75));
+    color: rgb(0, 0, 0);
+    border: none;
+    cursor: pointer;
+    transition: 0.5s all ease;
+    margin-left: 5em;
+}
+
+.container #color:hover {
+    border-radius: 25px;
+    transition: 0.5s all ease;
+}
+
+.container form .levels {
+    display: inline;
+}
+
+#myCv {
+    width: 90vw;
+    background: rgb(247, 243, 243);
+    margin: 5rem auto 5rem;
+    font-family: 'Poppins', sans-serif;
+    border: 2px solid black;
+}
+
+#myCv #cvHeading {
+    background: rgb(255, 227, 227);
+}
+
+#myCv #cvHeading .name {
+    padding-top: 0.5em;
+    text-align: center;
+    font-size: 2em;
+}
+
+#myCv #cvHeading .yAddress,
+.yContact,
+.yEmail {
+    text-align: center;
+    font-size: 0.8em;
+}
+
+#myCv .wrapper {
+    width: 95%;
+    display: flex;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+#myCv .wrapper .left-side .profile {
+    font-size: 1.5em;
+}
+
+#myCv .wrapper .left-side .profile p {
+    font-size: .5em;
+}
+
+#myCv .wrapper .right-side .objective {
+    font-size: 1.5em;
+}
+
+#myCv .wrapper .right-side .objective p {
+    font-size: .5em;
+}
+
+.section {
+    width: 95%;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+}
+
+.skillSection {
+    font-size: 1.5em;
+}
+
+.skillSection ul li {
+    font-size: .7em;
+    list-style: none;
+    font-weight: bold;
+}
+
+.skillSection span {
+    font-size: .6em;
+}
+
+
+
+.expSection {
+    font-size: 1.5em;
+}
+
+.expSection ul li {
+    font-size: .7em;
+    list-style: none;
+    font-weight: bold;
+}
+
+.expSection span {
+    font-size: .6em;
+}
+
+
+.endSection {
+    width: 95%;
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 20px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    margin-bottom: 5rem;
+}
+
+.education {
+    font-size: 1.5em;
+}
+
+.education span {
+    font-size: .6em;
+}
+
+.education ul li {
+    font-size: .7em;
+    list-style: none;
+    font-weight: bold;
+}
+
+.bio {
+    font-size: 1.5em;
+}
+
+.bio span {
+    font-size: .7em;
+    font-weight: bold;
+}
+
+.bio ul li {
+    font-size: .6em;
+    list-style: none;
+    margin-bottom: 10px;
+    display: inline;
+}
+
+#myCv #footer {
+    width: 100%;
+    height: 3em;
+    background: rgb(196, 196, 196);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.downloader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.downloadButton {
+    width: 15em;
+    height: 3em;
+    background: dodgerblue;
+    color: white;
+    margin: -25em 0 3em 0;
+    border: none;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: bold;
+    transition: 0.2s linear;
+}
+
+.downloadButton:hover {
+    box-shadow: 0 5px 10px 0 dodgerblue;
+    transition: 0.2s linear;
+}
+
+.alert {
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    margin: 3em auto 3em;
+    width: 250px;
+    height: 250px;
+    background: rgb(248, 248, 248);
+    box-shadow: 0 5px 10px 5px rgb(224, 224, 224);
+    border-radius: 25px;
+    padding: 20px 20px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    visibility: hidden;
+}
+
+.alert h4 {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: url("img/background.gif");
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.alert p {
+    margin-top: 8px 10px;
+}
+
+.alert #image {
+    width: 140px;
+    height: 140px;
+    margin: 10px 0;
+}
+
+.alert #cross {
+    position: absolute;
+    top: 10px;
+    left: 255px;
+    border: none;
+    font-size: 20px;
+    background: none;
+    cursor: pointer;
+    width: 25px;
+    height: 25px;
+    transition: 0.3s ease;
+    border-radius: 100%;
+}
+
+.alert #cross:hover {
+    background-color: hotpink;
+    color: white;
+    border-radius: 100%;
+    transition: 0.3s ease;
+
+}
+
+
+
+@media (max-width:768px) {
+    .header h2 {
+        font-size: 1.2em;
+        padding: 1.5em 2em 2em;
+    }
+
+    .header {
+        height: 40vh;
+    }
+}

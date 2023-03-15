@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/lg.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="script.js"></script>
+    <title>FREESUME Cv Maker</title>
+</head>
+
+<body>
+
+    <nav class="navBar">
+        <span><img id="logo" src="img/logo.png" alt="logo"></span>
+        <span id="brand">FREESUME</span>
+    </nav>
+
+    <div class="header">
+        <h2>Tired of making resume by your self ?</h2>
+        <h2>FREESUME brings you to create your resume with more ease !</h2>
+    </div>
+
+    <div class="container">
+        <h3>Fill the fields below</h3>
+
+
+        <form>
+
+            <label for="yName">Your Name :</label>
+            <input type="text" class="inputs" id="yName" value="" autofocus>
+            <br><br>
+
+            <label for="fName">Father Name :</label>
+            <input type="text" class="inputs" id="fName" value="">
+            <br><br>
+
+            <label for="age">AGE :</label>
+            <input type="number" class="inputs" id="age" value="">
+            <br><br>
+
+            <label for="mtStatus">Martial status :</label>
+            <input type="text" class="inputs" id="mtStatus" value="">
+            <br><br>
+
+            <label for="religion">Religion :</label>
+            <input type="text" class="inputs" id="religion" value="">
+            <br><br>
+
+            <label for="age">Email :</label>
+            <input type="email" class="inputs" id="email" value="">
+            <br><br>
+
+            <label for="contact">Contact Number :</label>
+            <input type="number" class="inputs" id="contact" value="">
+            <br><br>
+
+            <label for="address">Address :</label>
+            <input type="text" class="inputs" id="address" value="">
+            <br><br>
+
+            <label for="profile">Profile :</label>
+            <textarea id="profile" cols="30" rows="10">Web Developer with 8 years of experience in designing and developing user interfaces, testing, debugging, and training staff within eCommerce technologies. Proven ability in optimizing web functionality that improve data retrieval and
+        workflow efficiencies.</textarea>
+            <br><br>
+
+            <label for="objective">Objective :</label>
+            <textarea id="objective" cols="30" rows="10">Web developer resume objective examples
+        "Self-motivated team player with nine years of experience seeking a position as a lead web developer with Next Generation Web Development where I can apply my advanced knowledge of web design with my leadership abilities to meet
+        client needs and exceed their expectations."</textarea>
+            <br><br>
+
+
+
+            <label for="skill">Skills :</label>
+            <input type="text" class="inputs" id="skillOne" value="">
+            <label for="sk-1" class="labels"> Expertise level:</label>
+            <input type="text" id="sk-1" value="" class="levels" placeholder="write in percent(%)">
+            <br>
+            <input type="text" class="inputs" id="skillTwo" value="">
+            <label for="sk-2" class="labels"> Expertise level:</label>
+            <input type="text" id="sk-2" value="" class="levels" placeholder="write in percent(%)"><br>
+
+            <input type="text" class="inputs" id="skillThree" value=""><label for="sk-3" class="labels"> Expertise
+                level:</label><input type="text" id="sk-3" value="" class="levels"
+                placeholder="write in percent(%)"><br>
+
+
+
+
+            <label for="experience">Experience :</label>
+            <input type="text" class="inputs" id="expOne" value="">
+            <label for="ex-1" class="labels">Period:</label>
+            <input type="date" value="" id="ex-1" class="levels">
+            to
+            <input type="date" value="" id="ex-fir" class="levels">
+            <br>
+            <input type="text" class="inputs" id="expTwo" value="">
+            <label for="ex-2" class="labels">Period:</label>
+            <input type="date" value="" id="ex-2" class="levels">
+            to
+            <input type="date" value="" id="ex-sec" class="levels"><br>
+
+            <input type="text" class="inputs" id="expThree" value="">
+            <label for="ex-3" class="labels">Period:</label>
+            <input type="date" value="" id="ex-3" class="levels">
+            to
+            <input type="date" value="" id="ex-thi" class="levels"><br>
+
+
+            <label for="education">Education :</label>
+            <input type="text" class="inputs" id="eduOne" value="">
+            <label for="edu-1" class="labels">Period:</label>
+            <input type="date" value="" id="edu-1" class="levels">
+            to
+            <input type="date" value="" id="edu-fir" class="levels">
+            <br>
+            <input type="text" class="inputs" id="eduTwo" value="">
+            <label for="edu-2" class="labels">Period:</label>
+            <input type="date" value="" id="edu-2" class="levels">
+            to
+            <input type="date" value="" id="edu-sec" class="levels">
+            <br>
+
+            <input type="text" class="inputs" id="eduThree" value="">
+            <label for="edu-3" class="labels">Period:</label>
+            <input type="date" value="" id="edu-3" class="levels">
+            to
+            <input type="date" value="" id="edu-thi" class="levels">
+            <br><br>
+
+
+            <label for="headerClr">Choose Header color :</label>
+            <input type="color" id="headerClr">
+            <br><br>
+            <label for="bodyClr">Choose Body color :</label>
+            <input type="color" id="bodyClr">
+            <br><br>
+            <label for="footerClr">Choose Footer color :</label>
+            <input type="color" id="footerClr">
+            <br><br>
+            <h4>NOTE: After choosing color click the "Change Color" button below to apply changes .</h4>
+
+
+            <br><br><br>
+            <input type="reset" id="resetButton" value="Clear all">
+        </form>
+        <button id="color" onclick="colorPicker()">Change Color</button>
+        <button id="submitButton" onclick="cvMaker()">Save Changes</button>
+    </div>
+
+
+
+
+
+
+
+
+    <div class="cv" id="myCv">
+        <div id="cvHeading">
+            <div class="name" id="youName">YOUR NAME</div>
+            <div class="yAddress" id="youAddress">Your address</div>
+            <div class="yContact" id="youContact">Your contact number</div>
+            <div class="yEmail" id="youEmail">Youremail@gmail.com</div>
+            <br>
+
+        </div>
+        <div class="wrapper">
+            <div class="left-side">
+                <div class="profile">
+                    Profile
+                    <p id="yProfile">Web Developer with 8 years of experience in designing and developing user
+                        interfaces, testing,
+                        debugging, and training
+                        staff within eCommerce technologies. Proven ability in optimizing web functionality that improve
+                        data retrieval and
+                        workflow efficiencies. Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi pariatur
+                        ratione quod tempora id. Ea omnis labore consequatur eveniet deserunt.</p>
+                </div>
+            </div>
+
+            <div class="right-side">
+                <div class="objective">
+                    Ojective
+                    <p id="yObjective">Web developer resume objective examples
+                        "Self-motivated team player with nine years of experience seeking a position as a lead web
+                        developer with Next
+                        Generation Web Development where I can apply my advanced knowledge of web design with my
+                        leadership abilities to meet
+                        client needs and exceed their expectations."Lorem ipsum, dolor sit amet consectetur adipisicing
+                        elit. Ad, repellendus. Minus, aperiam molestias! Nihil id tenetur mollitia unde, est quaerat!
+                    </p>
+                </div>
+            </div>
+
+        </div>
+        <div class="section">
+            <div class="skillSection">
+                Skills
+                <br><br>
+                <ul>
+                    <li id="webDevelopment"> Web developer</li>
+                    <span>Expertise:</span> <span id="web">50%</span>
+                    <br><br>
+                    <li id="programmer"> Programmer</li>
+                    <span>Expertise:</span> <span id="program">50%</span>
+                    <br><br>
+                    <li id="androidDevelopment"> Android developer</li>
+                    <span>Expertise:</span> <span id="android">50%</span>
+                </ul>
+            </div>
+
+            <div class="expSection">
+                Experience
+                <br><br>
+                <ul>
+                    <li id="firstExp"> First place </li>
+                    <span id="first">01/01/2000</span>
+                    <span><b> to </b></span>
+                    <span id="first-experience">01/01/2000</span>
+                    <br><br>
+                    <li id="secondExp"> Second place </li>
+                    <span id="second">01/01/2000</span>
+                    <span><b> to </b></span>
+                    <span id="second-experience">01/01/2000</span>
+                    <br><br>
+                    <li id="thirdExp"> Third place </li>
+                    <span id="third">01/01/2000</span>
+                    <span><b> to </b></span>
+                    <span id="third-experience">01/01/2000</span>
+                    <b> </b>
+                </ul>
+            </div>
+        </div>
+
+
+
+        <div class="endSection">
+            <div class="education">
+                Education
+                <br><br>
+                <ul>
+                    <li id="school"><b> School </b></li>
+                    <span id="sch">01/01/2000</span>
+                    <span><b> to </b></span>
+                    <span id="first-school">01/01/2000</span>
+                    <br><br>
+                    <li id="college"><b> College </b></li>
+                    <span id="coll">01/01/2000</span>
+                    <span><b> to </b></span>
+                    <span id="first-college">01/01/2000</span>
+                    <br><br>
+                    <li id="university"><b> University </b></li>
+                    <span id="uni">01/01/2000</span>
+                    <span><b> to </b></span>
+                    <span id="first-university">01/01/2000</span>
+                </ul>
+            </div>
+
+            <div class="bio">
+                Bio
+                <br><br>
+                <ul>
+                    <span> Father Name : </span>
+                    <li id="fatherName">Father Name</li><br>
+                    <span> AGE : </span>
+                    <li id="AGE">Age</li><br>
+                    <span> Martial Status : </span>
+                    <li id="martial">Martial Status</li><br>
+                    <span> Religion : </span>
+                    <li id="Religion">Religion</li>
+                </ul>
+            </div>
+        </div>
+
+        <div id="footer">&copy; 2022 | @Ahmadhassan | FREESUME.Com | All rights reserverd.</div>
+
+    </div>
+
+    <div class="alert">
+        <button id="cross" onclick="closePopup()">
+            <i class="fa-solid fa-xmark"></i></button>
+        <h4>COMING SOON</h4>
+        <img id="image" src="img/code.png" alt="coding">
+        <p>This feature will be avaliable soon :)</p>
+    </div>
+
+    <div class="downloader">
+        <button class="downloadButton" onclick="openPopup()">Download Pdf</button>
+    </div>
+    <!-- <i class="fa-solid fa-circle-xmark"></i> -->
+    <!-- <i class="fa-regular fa-circle-xmark"></i> -->
+</body>
+
+</html>
